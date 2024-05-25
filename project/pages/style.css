@@ -1,0 +1,363 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.topbar {
+    background-color: #f7e9d7;
+    /* Background color */
+    position: fixed;
+    /* Fix the topbar to the top of the viewport */
+    top: 0;
+    /* Distance from the top of the viewport */
+    left: 0;
+    /* Align to the left */
+    width: 100%;
+    /* Full width */
+    z-index: 1000;
+    /* Ensure the topbar stays on top of other content */
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    /* Use flexbox */
+    align-items: center;
+    /* Align items vertically */
+    justify-content: space-between;
+    /* Space items evenly */
+    max-width: 1200px;
+    /* Maximum width of the container */
+    margin: 0 auto;
+    /* Center the container */
+}
+
+
+
+.buttonimg {
+    margin-right: 20px;
+    /* Margin between button images */
+    display: flex;
+    /* Use flexbox */
+    align-items: center;
+    /* Align items vertically */
+}
+
+
+.containernav {
+    display: flex;
+    align-items: center;
+    /* Align vertically */
+}
+
+.navbar {
+    margin-left: 20px;
+    /* Adjust as needed */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 10px;
+    /* Adjust as needed */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    /* Adjust as needed */
+    font-weight: bold;
+    /* Adjust as needed */
+}
+
+.sidebar {
+    position: fixed;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 150px;
+    top: 0;
+    /* Adjust as needed */
+    left: 0;
+    /* Adjust as needed */
+    width: 200px;
+    /* Adjust the width as needed */
+    height: 450px;
+    /* Make the sidebar full height */
+    padding: 20px;
+    /* Adjust the padding as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for better appearance */
+    z-index: 1000;
+    /* Ensure sidebar stays above other content */
+}
+
+.capture-btn {
+    display: block;
+    width: 200px;
+    /* Ajustez la largeur selon vos besoins */
+    padding: 20px 30px;
+    /* Ajustez les valeurs de padding selon vos besoins */
+    border: 2px solid #F19C30;
+    /* Couleur de la bordure */
+    border-radius: 50%;
+    /* Rend le bouton circulaire */
+    background-color: #ffffff;
+    /* Couleur de fond du bouton */
+    color: #F19C30;
+    /* Couleur du texte */
+    font-size: 16px;
+    /* Taille de la police */
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    /* Enlève les contours par défaut */
+    transition: background-color 0.3s ease;
+    /* Effet de transition */
+    margin-bottom: 10px;
+    /* Espacement entre les boutons */
+}
+
+.capture-btn:hover {
+    background-color: #F19C30;
+    /* Couleur de fond au survol */
+    color: #ffffff;
+    /* Couleur du texte au survol */
+}
+
+.menu {
+    margin-top: 1px;
+    margin-left: 20px;
+    font-size: 16px;
+    /* Taille de la police */
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: 170px;
+    margin-bottom: 20px;
+    /* Espace entre le logo et le menu */
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    /* Affichage des éléments en colonne */
+    align-items: center;
+    /* Centrage horizontal */
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.content,
+.content1 {
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    /* Centrage vertical */
+}
+
+.content-wrapper,
+.content1 .content-wrapper {
+    display: flex;
+    align-items: center;
+    /* Centrage vertical */
+}
+
+.content p,
+.content1 p {
+    margin-right: 20px;
+    /* Espacement entre le paragraphe et l'image */
+}
+
+.highlight {
+    color: #dc11f7;
+    /* Couleur pour le premier mot */
+}
+
+.content img,
+.content1 img {
+    max-width: 300px;
+    /* Taille maximale de l'image */
+    height: auto;
+    /* Maintenir le rapport hauteur/largeur */
+}
+
+.content1 {
+    margin-top: 50px;
+    /* Espacement entre les deux divs */
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    /* Centre les éléments horizontalement */
+    margin-top: 20px;
+    /* Espacement en haut */
+}
+
+.content3 img {
+    max-width: 100px;
+    /* Taille maximale de l'image */
+    height: auto;
+    /* Maintenir le rapport hauteur/largeur */
+}
+
+.imgmessage {
+    height: 70px;
+    width: 70px;
+    margin-left: 300px;
+}
+
+.content3 {
+    margin-top: 50px;
+    /* Espacement entre les deux divs */
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    /* Centre les éléments horizontalement */
+    margin-top: 20px;
+    /* Espacement en haut */
+}
+
+
+
+.buttonimg {
+    display: flex;
+    flex-direction: column;
+    /* Affichage des éléments en colonne */
+    align-items: center;
+    /* Centre les éléments horizontalement */
+    margin-right: 30px;
+    /* Espacement entre les éléments */
+    margin-top: 5px;
+
+}
+
+.img {
+    width: 150px;
+    /* Largeur de l'image */
+    height: 150px;
+    /* Hauteur de l'image */
+}
+
+
+
+.buttonimg button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    /* Couleur de fond du bouton */
+    border: none;
+    padding: 10px 20px;
+    /* Ajustez le rembourrage selon vos besoins */
+    border-radius: 5px;
+    /* Ajoute des coins arrondis au bouton */
+    cursor: pointer;
+}
+
+
+.navbar-content {
+    max-width: 100%;
+    /* Adjust as needed */
+    margin: 0 auto;
+    display: flex;
+    /* Make the footer content flexbox */
+    align-items: center;
+    /* Align items vertically in the center */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+.icon {
+    width: 20px;
+    /* Largeur de l'icône */
+    height: 5px;
+    /* Hauteur de l'icône */
+    margin-right: 5px;
+    /* Ajoute de l'espace entre l'icône et le texte */
+}
+
+
+footer {
+    background-color: #f1c181;
+    color: #0f0d0d;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-content {
+    max-width: 100%;
+    /* Adjust as needed */
+    margin: 0 auto;
+    display: flex;
+    /* Make the footer content flexbox */
+}
+
+.icon1 {
+    margin-right: 10px;
+    /* Adjust as needed to add space between icons */
+    width: 50px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.icon5 {
+    margin-right: 10px;
+    /* Adjust as needed to add space between icons */
+    width: 30pxpx;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.link {
+    font-size: 15px;
+}
+
+.boxed-paragraph {
+    border: 2px solid #f1c181;
+    /* Couleur de la bordure */
+    padding: 10px;
+    /* Espacement à l'intérieur du cadre */
+    background-color: #fff;
+    /* Couleur de fond */
+    color: #333;
+    /* Couleur du texte */
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    width: 600px;
+    /* Adjust width as needed */
+    padding: 8px;
+    /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    /* Border color */
+    border-radius: 4px;
+    /* Border radius */
+    margin-left: 20px;
+    /* Adjust margin as needed */
+}
+
+.icon3 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    right: 10px;
+    /* Adjust right position as needed */
+    transform: translateY(-50%);
+}

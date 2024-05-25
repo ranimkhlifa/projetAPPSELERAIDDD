@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SILVERAIDE</title>
+    <link rel="stylesheet" href="compte.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="awesome/css/all.min.css">
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+    <script defer src="Compte.js"></script> <!-- Ensure Compte.js is loaded after DOM -->
+
+</head>
+
+<body>
+    <div class="containernav">
+        <div class="topbar">
+            <div class="container">
+                <div class="buttonimg">
+                    <img class="logo"
+                        src="../assets/images/blue_red_white_square_badge_simple_medical_clinic_logo_1-removebg-preview.png">
+                </div>
+                <div class="buttonimg">
+                    <img class="icon5" src="../assets/images/home.png">
+                    <a class="link" href="ECommerce.html"> Acceuil</a>
+                </div>
+                <div class="buttonimg">
+                    <img class="icon5" src="../assets/images/images_31-removebg-preview.png">
+                    <a  href="Compte.html"> Mon Compte</a>
+                </div>
+                <div class="buttonimg">
+                    <img class="icon5" src="../assets/images/f_6_d_2112.png">
+                    <a href=""> Mon Panier</a>
+                </div>
+
+                <nav class="navbar">
+                    <div class="buttonimg">
+                        <div class="input-container">
+                            <input type="text" class="search-input" placeholder="Recherche...">
+                            <img class="icon3" src="../assets/images/tlchargement_52.png">
+                        </div>
+                    </div>
+
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="sidebar">
+
+
+            <h3 class="menu">Menu</h3>
+
+            <button class="capture-btn">Santé et bien-être</button>
+            <button class="capture-btn">Service à Domicile</button>
+            <button class="capture-btn">Shopping</button>
+            <button class="capture-btn">Emploi Senoir</button>
+        </div>
+        <div class="container1">
+            <div class="content">
+
+
+                <img class="img" src="../assets/images/getty_images_5475190381600_x_10671.jpeg">
+            </div>
+            <div class="form-control">
+                <h5 style="margin-left: 20px;"> </h5>
+
+            </div>
+            <div class="content">
+                <div class="content-wrapper">
+                    <p class="boxed-paragraph"> <a href="ECommerce.html">Acceuil</a>
+                        < <a href="Compte.html">Identifiez-vous</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="content">
+
+                <div class="container7">
+                    <div class="boxed-paragraph-wrapper">
+                        <div class="boxed-paragraph">
+                            <h2>Créer un Compte</h2>
+                            <form id="form">
+
+                                <div class="form-control">
+                                    <label for="email2">Nom d'utilisateur</label>
+
+                                    <input type="text" id="username" placeholder="Nom d'utilisateur">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation"></i>
+                                    <small>Message d'erreur</small>
+                                </div>
+                                <div class="form-control">
+                                    <label for="email2">Numéro de téléphone</label>
+
+                                    <input type="text" id="phone" placeholder="Numéro de téléphone">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation"></i>
+                                    <small>Message d'erreur</small>
+                                </div>
+                                <div class="form-control">
+                                    <label for="email2"><Em>Email</Em></label>
+
+                                    <input type="email" id="email" placeholder="exemple@gmail.com">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation"></i>
+                                    <small>Message d'erreur</small>
+                                </div>
+                                <div class="form-control">
+                                    <label for="email2">Mot de passe</label>
+
+                                    <input type="password" id="password" placeholder="Mot de passe">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation"></i>
+                                    <small>Message d'erreur</small>
+                                </div>
+                                <div class="form-control">
+                                    <label for="email2">Confirmer mot de passe</label>
+
+                                    <input type="password" id="password2" placeholder="Confirmer mot de passe">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation"></i>
+                                    <small>Message d'erreur</small>
+                                </div>
+
+                                <button type="submit" class="btn">
+                                    <img class="icon5" src="../assets/images/images_31-removebg-preview.png">
+                                    Créez votre compte</button>
+                            </form>
+
+                        </div>
+
+                        <div class="boxed-paragraph">
+                            <h2>Déja inscrit</h2>
+                            <form id="formLogin">
+                                <div class="form-control inline">
+                                    <label for="email2"><Em>Email</Em></label>
+
+                                    <input type="email" id="email2" placeholder="exemple@gmail.com">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation"></i>
+                                    <small>Message d'erreur</small>
+                                </div>
+                                <div class="form-control inline">
+                                    <label for="email2"><Em>Mot de passe</Em></label>
+
+                                    <input type="password" id="passwordL" placeholder="Mot de passe">
+                                    <i class="fas fa-check-circle"></i>
+                                    <i class="fas fa-exclamation"></i>
+                                    <small>Message d'erreur</small>
+                                </div>
+                                <div class="form-control">
+                                    <h5> <a href="">Mot de passe oublié ?</a></h5>
+
+                                </div>
+                                <button type="submit" class="btn">
+                                    <img class="icon5" src="../assets/images/Connexion.png">
+                                    Connexion</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="content3">
+                <p><span class="highlight" style="margin-right: 150px;">aidants/aidés <br>tous a vos <br>plumes</span>
+                </p>
+
+                <img src="../assets/images/hand.png">
+
+                <p href="#"><span class="highlight">Forum des seniors member</span></p>
+                <img class="imgmessage" src="../assets/images/messagerie.png">
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-content">
+            <img class="icon1" src="../assets/images/artboard_24_sr_1.png">
+            RESPECT DE LA VIE PRIVÉE
+
+
+            <img class="icon1" style="margin-left: 50px;"
+                src="../assets/images/smart_phone_iphone_message_icon_1487941.png">
+            NOUS CONTACTER CONDITIONS GÉNÉRALES D&#39;UTILISATION
+
+            <img class="icon1" style="margin-left: 150px;" src="../assets/images/tlchargement_11.png">
+
+            <img class="icon1" src="../assets/images/tlchargement_51.jpeg">
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
